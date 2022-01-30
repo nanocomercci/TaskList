@@ -7,10 +7,28 @@
       "reminder": true
     },
     {
-      "id": 5,
-      "text": "Empezar la ZorrApp",
-      "day": "Septiembre 15 a las 14:00",
-      "reminder": true
+      "text": "MAR DEL PLATA",
+      "day": "24",
+      "reminder": true,
+      "id": 17
+    },
+    {
+      "text": "MAR DEL PLATA",
+      "day": "24",
+      "reminder": true,
+      "id": 18
+    },
+    {
+      "text": "MAR DEL PLATA",
+      "day": "24",
+      "reminder": true,
+      "id": 19
+    },
+    {
+      "text": "MAR DEL PLATA",
+      "day": "24",
+      "reminder": true,
+      "id": 20
     }
   ]
 }
