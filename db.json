@@ -4,19 +4,13 @@
       "id": 2,
       "text": "Termnar el Primer Módulo de Base de Datos",
       "day": "Agosto 9 a las 14:00",
-      "reminder": false
-    },
-    {
-      "id": 4,
-      "text": "Comerme una chota",
-      "day": "Septiembre 15 a las 14:00",
-      "reminder": false
+      "reminder": true
     },
     {
       "id": 5,
       "text": "Empezar la ZorrApp",
       "day": "Septiembre 15 a las 14:00",
-      "reminder": false
+      "reminder": true
     }
   ]
 }

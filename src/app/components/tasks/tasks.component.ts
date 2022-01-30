@@ -11,7 +11,7 @@ import { HttpClient, HttpHandler } from '@angular/common/http';
 export class TasksComponent implements OnInit {
   tasks: Task[] = [];
 
-  constructor(private takservice: TaskService) {}
+  constructor(private takservice: TaskService) { }
 
   ngOnInit(): void {
     this.takservice.getTasks().subscribe((tasks) => (this.tasks = tasks));
@@ -22,5 +22,13 @@ export class TasksComponent implements OnInit {
       .subscribe(
         () => (this.tasks = this.tasks.filter((t) => t.id !== task.id))
       );
+  }
+
+  toggleReminder(task: Task) {
+    task.reminder = !task.reminder;
+    this.takservice.updateTaskReminder(task).subscribe();
+  }
+  addTask(task: Task) {
+    this.takservice.addTask(task).subscribe((task) => this.tasks.push(task));
   }
 }
